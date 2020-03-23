@@ -9,13 +9,13 @@
 </div>
 <div class="activity">
     <h3>Weekly sharing</h3>
-    <p>We thrive to learn and share our knowledge with the community with weekly sharing events between club members.
-        Weekly meetings are hosted by students and discuss CTFs problems solution and computer security topics.
-        We occasionally gather around at weekends participate in CTFs to hone our skills and socialize.</p>
+    <p>We thrive to learn and share our knowledge on weekly sharing seminars among club members.
+        Weekly meetings are hosted by our members, to discuss CTFs problems solution and relevant topics of cyber security.
+        We occasionally gather around at weekends to participate in CTFs in order to hone our skills.</p>
 </div>
 <div class="activity">
     <h3>Educational resources</h3>
-    <p>We cumulates security resources through researchs for both educational purposes and enterprise solution.
+    <p>We cumulates security resources through researches for both educational purposes and enterprise solution.
         We also grant electable candidates with internships and job opportunities.</p>
 </div>
 <div class="activity">
