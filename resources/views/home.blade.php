@@ -4,22 +4,23 @@
 @section('content')
 <div class="activity">
     <h3>Active CTF Competitor</h3>
-    <p>Efiens plays both competitively and casually in a number of computer security CTFs throughout the school
-        year, typically placing among the top teams in the world.</p>
+    <p>Efiens practices computer security through CTFs competitions around the world. As an academic team,
+        we have participated in national competitions and received many awards.</p>
 </div>
 <div class="activity">
     <h3>Weekly sharing</h3>
-    <p>We host meetings and events on a weekly basis led by fellow students to teach a wide variety of practical
-        computer security skills that translate directly to the real world.</p>
+    <p>We thrive to learn and share our knowledge with the community with weekly sharing events between club members.
+        Weekly meetings are hosted by students and discuss CTFs problems solution and computer security topics.
+        We occasionally gather around at weekends participate in CTFs to hone our skills and socialize.</p>
 </div>
 <div class="activity">
     <h3>Educational resources</h3>
-    <p>We work to obtain educational resources necessary for our members to explore computer security and help
-        connect them with both internships and full time job opportunities.</p>
+    <p>We cumulates security resources through researchs for both educational purposes and enterprise solution.
+        We also grant electable candidates with internships and job opportunities.</p>
 </div>
 <div class="activity">
     <h3>Applied cryptography research</h3>
-    <p>Efiens plays both competitively and casually in a number of computer security CTFs throughout the school
-        year, typically placing among the top teams in the world.</p>
+    <p>Efiens was originally a cryptography research team. We research novel cryptography terminology for applications
+        in security field and train potential young mathematics Master/PhD candidates.</p>
 </div>
 @endsection
