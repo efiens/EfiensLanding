@@ -6,6 +6,19 @@
 (define (csvfile->list filename)
   (call-with-input-file filename csv->list))
 
+(define avatar (map string-split (file->lines "avatar.txt")))
+
+; (pretty-print avatar)
+
+(define default-img "")
+
+(define (find-image nickname)
+  (let ([img (findf (lambda (avatar-link) (equal? nickname (first avatar-link))) avatar)])
+    (if img
+      (cond [(string-contains? (second img) "null.png") default-img]
+            [else (second img)])
+      default-img)))
+
 (let* ([file-data (csvfile->list "member.csv")]
        [header (first file-data)]
        [members (rest file-data)])
@@ -56,12 +69,13 @@
         "name" => "~a",
         "title" => "",
         "description" => "~a",
-        "image" => "https://kenh14cdn.com/thumb_w/640/2020/photo1577876362597-1577876362678-crop-15778764486721556804772.jpg",
+        "image" => "~a",
         "mail" => "~a",
     ),~%
 member-info
-          name
+          nickname
           bio
+          (find-image nickname)
           email-personal
       )))
 
