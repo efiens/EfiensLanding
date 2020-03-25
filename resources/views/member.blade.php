@@ -12,7 +12,7 @@
         </div>
         <div class="member-card__content">
             <div class="member-card__header">
-            <h1 class="member-card__title">{{$member -> name}}</h1>
+            <h3 class="member-card__title">{{$member -> name}}</h3>
             <h4 class="member-card__info">{{$member -> title}}</h4>
             </div>
             <p class="member-card__desc text">{{$member -> description}}</p>
