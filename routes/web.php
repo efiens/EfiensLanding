@@ -174,7 +174,7 @@ Route::get('/member', function () {
             (object) array(
                 "name" => "Võ Minh Long",
                 "title" => "",
-                "description" => "Edisc stands for "even die I still continue".",
+                "description" => "Edisc stands for \"even die I still continue\".",
                 "image" => "https://kenh14cdn.com/thumb_w/640/2020/photo1577876362597-1577876362678-crop-15778764486721556804772.jpg",
                 "mail" => "minhlongv84@gmail.com",
             ),
