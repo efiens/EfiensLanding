@@ -87,12 +87,13 @@
     padding: 0 1em 1em;
 }
 .member-card__header {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 .member-card__title {
     color: #ffffff;
     margin-bottom: 0.25em;
     opacity: 0.75;
+    margin-top: 10rem;
 }
 .member-card__info {
     text-transform: uppercase;
@@ -111,13 +112,17 @@
 }
 
 h1,
-h2,
-h3 {
+h2 {
     font-family: "Montserrat", helvetica, arial, sans-serif;
-    text-transform: uppercase;
     letter-spacing: 2px;
     line-height: 1;
     font-weight: 400;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 2em;
+    margin: 3rem 0;
 }
 
 .btn {
@@ -144,3 +149,63 @@ h3 {
     color: #2a9fff;
     box-shadow: 0px 1px 8px 0px rgba(245, 199, 0, 0.2);
 }
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 5rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 5px;
+    width: 40%;
+    position: relative;
+    transition: all 1s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: var(--main-bg-color);
+  }
+  .popup .content {
+    max-height: 40%;
+    overflow: auto;
+    color: var(--header-footer);
+    text-align: justify;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }

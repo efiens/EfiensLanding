@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:700&display=swap');
 :root {
     --main-bg-color: #004b8d;
     --header-footer: #00305a;
@@ -20,7 +21,6 @@ html {
 body {
     position: relative;
     margin: 0;
-    padding-bottom: 6rem;
     min-height: 100%;
     background-color: var(--main-bg-color);
 }
@@ -100,9 +100,15 @@ body {
     background-color: var(--header-footer);
 }
 
-h3 {
+h3, h4 {
     color: var(--title);
-    font-weight: bold;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+a, a:hover {
+    color: var(--title);
 }
 
 .activity {
@@ -111,7 +117,7 @@ h3 {
 
 .footer {
     bottom: 0;
-    position: absolute;
+    /* position: absolute; */
     background-color: var(--header-footer);
     padding: 2rem 0;
     width: 100%;

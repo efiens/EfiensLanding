@@ -23,7 +23,7 @@ Route::get('/', function () {
 Route::get('/member', function () {
     return view('member', [
         HEADER => true,
-        "members" => [
+        "cores" => [
             (object) array(
                 "name" => "cothan",
                 "title" => "",
@@ -206,7 +206,21 @@ Route::get('/member', function () {
                 "image" => "https://cdn.discordapp.com/avatars/622454613408219170/61a45137641591a08e4da4c15644f0ed.png?size=1024",
                 "mail" => "",
             ),
-        ]
+        ],
+        "leaders" => [(object) array(
+            "name" => "cothan",
+            "title" => "",
+            "description" => "Team leader",
+            "image" => "https://cdn.discordapp.com/avatars/568115736904597518/089b0169b90b5f1ff5b25e4a1eaa9d0f.png?size=1024",
+            "mail" => "",
+        ),],
+        "advisors" =>  [(object) array(
+            "name" => "cothan",
+            "title" => "",
+            "description" => "Team leader",
+            "image" => "https://cdn.discordapp.com/avatars/568115736904597518/089b0169b90b5f1ff5b25e4a1eaa9d0f.png?size=1024",
+            "mail" => "",
+        ),],
     ]);
 });
 Route::get('/achievement', function () {
@@ -233,6 +247,84 @@ Route::get('/achievement', function () {
                 "description" => "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?",
                 "image" => "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSnpmBZkeiYtjwWJFO6maKBoaT-Tiwk9Y1kTDevpJDDnLnYVrDf",
                 "link" => "#links",
+            ),
+        ],
+        "ctfs" => [
+            (object) array(
+                "name" => "RuCTF",
+                "logo" => "https://ctftime.org/media/cache/94/aa/94aa993605919ced39b7ab3a65d4d390.png",
+                "rank" => "1/123",
+            ),
+            (object) array(
+                "name" => "PlaidCTF",
+                "logo" => "https://ctftime.org/media/cache/ad/8f/ad8fade9c651c5bf3ab6d7caa203275b.png",
+                "rank" => "1/123",
+            ),
+            (object) array(
+                "name" => "HITB CTF Amsterdam",
+                "logo" => "https://ctftime.org/media/cache/e8/80/e88074e54d5efdd7cd2d8d91e3d1dbe5.png",
+                "rank" => "1/123",
+            ),
+            (object) array(
+                "name" => "C3CTF",
+                "logo" => "https://ctftime.org/media/cache/81/d5/81d5dcaab0511469532bd31c3f505a9c.png",
+                "rank" => "1/123",
+            ),
+            (object) array(
+                "name" => "Defcamp CTF Qualification",
+                "logo" => "https://ctftime.org/media/cache/04/59/0459dc6809fe807e474286a2474b8b42.png",
+                "rank" => "1/123",
+            ),
+            (object) array(
+                "name" => "PlaidCTF",
+                "logo" => "https://ctftime.org/media/cache/ad/8f/ad8fade9c651c5bf3ab6d7caa203275b.png",
+                "rank" => "1/123",
+            ),
+        ],
+        "blogs" => [
+            (object) array(
+                "day" => "19",
+                "month" => "MAR",
+                "title" => "[AngstromCTF 2020] bookface (pwn) writeup",
+                "category" => "AngstromCTF 2020",
+                "author" => "midas",
+                "description" => "Github link here. bookface Given files: bookface.tar.gz. The binary has: Full RELRO, Canary found, NX enabled and PIE enabled.",
+                "image" => "",
+                "link" => "https://blog.efiens.com/angstromctf2020bookface/",
+                "tags" => "Pwn, Exploit"
+            ),
+            (object) array(
+                "day" => "19",
+                "month" => "MAR",
+                "title" => "[AngstromCTF 2020] bookface (pwn) writeup",
+                "category" => "AngstromCTF 2020",
+                "author" => "midas",
+                "description" => "Github link here. bookface Given files: bookface.tar.gz. The binary has: Full RELRO, Canary found, NX enabled and PIE enabled.",
+                "image" => "https://vic.news/wp-content/uploads/2019/07/crypto-san-dgiao-dich-crypto.jpg",
+                "link" => "https://blog.efiens.com/angstromctf2020bookface/",
+                "tags" => "Pwn, Exploit"
+            ),
+            (object) array(
+                "day" => "19",
+                "month" => "MAR",
+                "title" => "[AngstromCTF 2020] bookface (pwn) writeup",
+                "category" => "AngstromCTF 2020",
+                "author" => "midas",
+                "description" => "Github link here. bookface Given files: bookface.tar.gz. The binary has: Full RELRO, Canary found, NX enabled and PIE enabled.",
+                "image" => "",
+                "link" => "https://blog.efiens.com/angstromctf2020bookface/",
+                "tags" => "Pwn, Exploit"
+            ),
+            (object) array(
+                "day" => "19",
+                "month" => "MAR",
+                "title" => "[AngstromCTF 2020] bookface (pwn) writeup",
+                "category" => "AngstromCTF 2020",
+                "author" => "midas",
+                "description" => "Github link here. bookface Given files: bookface.tar.gz. The binary has: Full RELRO, Canary found, NX enabled and PIE enabled.",
+                "image" => "",
+                "link" => "https://blog.efiens.com/angstromctf2020bookface/",
+                "tags" => "Pwn, Exploit"
             ),
         ]
     ]);
@@ -293,30 +385,8 @@ Route::get('/contact', function () {
         HEADER => false
     ]);
 });
-Route::get('/sponsor', function () {
-    return view('sponsor', [
-        HEADER => true,
-        "sponsors" => [
-            (object) array(
-                "logo" => "https://www.seo-vietnam.org/wp-content/uploads/2018/07/shopee.jpg",
-                "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "type" => ""
-            ),
-            (object) array(
-                "logo" => "https://upload.wikimedia.org/wikipedia/vi/8/80/FPT_New_Logo.png",
-                "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "type" => ""
-            ),
-            (object) array(
-                "logo" => "https://lh3.googleusercontent.com/proxy/8G5c23BRVwxpBhBbY4ka18cc60YB_5MSv96UJvxpfOFE2sLgAeKYhSO9Y8ruFwi_BgJEgUl02cC2_Jcpvg0idQMOZ53dJW2LCUk-SqWkGrsug7vUWItJGtGvtrmY88LpliO-dYQIVqE_KRDu",
-                "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "type" => ""
-            ),
-            (object) array(
-                "logo" => "https://thietkelogodep.com.vn/wp-content/uploads/2016/04/Thiet-ke-logo-dep-gia-re.png",
-                "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "type" => ""
-            ),
-        ]
+Route::get('/about', function () {
+    return view('about', [
+        HEADER => false
     ]);
 });

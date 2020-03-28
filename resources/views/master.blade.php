@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/swiper.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/main.css') }}" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -29,6 +29,9 @@
             <div class="navbar-collapse collapse" id="navbarsExample07XL">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
+                        <a class="nav-link {{ (request()->is('about')) ? 'active' : '' }}" href="/about">About</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link {{ (request()->is('member')) ? 'active' : '' }}" href="/member">Member</a>
                     </li>
                     <li class="nav-item">
@@ -39,9 +42,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ (request()->is('contact')) ? 'active' : '' }}" href="/contact">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link {{ (request()->is('sponsor')) ? 'active' : '' }}" href="/sponsor">Sponsor</a>
                     </li>
                 </ul>
             </div>
@@ -61,9 +61,29 @@
         @show
     </div>
     <footer class="footer">
-        <div class="container" style="display: flex; justify-content: space-between;">
-            <p style="margin: 0;">© 2020 Efiens.</p>
-            <a href="#">Back to top</a>
+        <div class="container"
+            <p>Sponsors</p>
+            <div style="display: flex; justify-content: space-between;">
+            @component('sponsor',["sponsors" => [
+                (object) array(
+                    "logo" => "https://static.zalopay.com.vn/stc/quydinh/ver181218/images/logozlp1.png",
+                ),
+                (object) array(
+                    "logo" => "https://upload.wikimedia.org/wikipedia/vi/8/80/FPT_New_Logo.png",
+                ),
+                (object) array(
+                    "logo" => "https://ctftime.org/media/cache/12/e0/12e0d1e31afaa1d777b1984328e1706b.png",
+                ),
+                (object) array(
+                    "logo" => "https://webstockreview.net/images/google-logo-white-png-1.png",
+                ),
+            ]])
+            @endcomponent
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+                <p style="margin: 0;">© 2020 Efiens.</p>
+                <a href="#">Back to top</a>
+            </div>
         </div>
     </footer>
     <script src="{{ asset('js/jquery-3.4.1.slim.min.js') }}"></script>
