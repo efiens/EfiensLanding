@@ -147,3 +147,13 @@ textarea.active {
         min-height: 90vh;
     }
 }
+
+.social {
+}
+
+.social__icon {
+  height: 2rem;
+  width: 2rem;
+  object-fit: contain;
+  margin: 0 0.5rem;
+}

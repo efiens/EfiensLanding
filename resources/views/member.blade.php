@@ -4,6 +4,26 @@ $CORE_MEMBER = "Core member";
 $ADVISOR = "Advisor";
 function renderMember($member, $key, $type) {
     $title = $member -> title ? $member -> title : $type;
+    $fb = $member -> fb ? (<<<HTML
+        <a class="social" href="{$member -> fb}" target="_blank">
+            <i class="fa fa-facebook-square"></i>
+        </a>
+    HTML) : "";
+    $tw = $member -> tw ? (<<<HTML
+        <a class="social" href="{$member -> tw}" target="_blank">
+            <i class="fa fa-twitter-square"></i>
+        </a>
+    HTML) : "";
+    $lk = $member -> lk ? (<<<HTML
+        <a class="social" href="{$member -> lk}" target="_blank">
+            <i class="fa fa-linkedin-square"></i>
+        </a>
+    HTML) : "";
+    $mail = $member -> lk ? (<<<HTML
+        <a class="social" href="mailto:{$member -> mail}" target="_blank">
+            <i class="fa fa-envelope"></i>
+        </a>
+    HTML) : "";
     return <<<HTML
         <div class="member-card" style="background-image: url({$member -> image})">
         <div class="member-card__overlay"></div>
@@ -15,15 +35,10 @@ function renderMember($member, $key, $type) {
             <h4 class="member-card__info">{$title}</h4>
             </div>
             <div>
-                <a class="social" href="#" target="_blank">
-                    <i class="fa fa-facebook-square"></i>
-                </a>
-                <a class="social" href="#" target="_blank">
-                    <i class="fa fa-twitter-square"></i>
-                </a>
-                <a class="social" href="#" target="_blank">
-                    <i class="fa fa-linkedin-square"></i>
-                </a>
+                {$mail}
+                {$fb}
+                {$tw}
+                {$lk}
             </div>
         </div>
     </div>

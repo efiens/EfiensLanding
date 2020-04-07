@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ asset('css/swiper.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/main.css') }}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="img/logo.png">
 </head>
 
 <body>
@@ -38,7 +39,7 @@
                         <a class="nav-link {{ (request()->is('achievement')) ? 'active' : '' }}" href="/achievement">Achievement</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ (request()->is('blog')) ? 'active' : '' }}" href="/blog">Blog</a>
+                        <a class="nav-link {{ (request()->is('blog')) ? 'active' : '' }}" href="/blog">Blog <i class="fa fa-external-link"></i></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ (request()->is('contact')) ? 'active' : '' }}" href="/contact">Contact</a>
@@ -84,9 +85,26 @@
             ]])
             @endcomponent
             </div> -->
-            <div style="display: flex; justify-content: space-between;">
-                <p style="margin: 0;">© 2020 Efiens.</p>
-                <a href="#">Back to top</a>
+            <div class="footer__content" style="display: flex; justify-content: space-between;">
+                <div>
+                    <p>CONTACT US</p>
+                    <a href="mailto:efiens.team@gmail.com?Subject=[Hello Efiens]" target="_top">efiens.team@gmail.com</a>
+                    <br/><br/>
+                    <a class="social" href="https://www.facebook.com/efiens.team" target="_blank">
+                        <img class="footer__social__icon" src="/img/icon/facebook.png" alt="fb" />
+                    </a>
+                    <a class="social" href="https://twitter.com/efiens.team" target="_blank">
+                        <img class="footer__social__icon" src="/img/icon/twitter.png" alt="twitter" />
+                    </a>
+                    <a class="social" href="https://discord.gg/ZzkVUKK" target="_blank">
+                        <img class="footer__social__icon" src="/img/icon/discord.png" alt="discord" />
+                    </a>
+                    <br/><br/>
+                    <p style="margin: 0; margin-bottom: 1rem;">© 2020 Efiens.</p>
+                </div>
+                <div>
+                    <a href="#">Back to top</a>
+                </div>
             </div>
         </div>
     </footer>

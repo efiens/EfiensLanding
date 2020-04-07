@@ -30,6 +30,9 @@ Route::get('/member', function () {
                 "description" => "Team leader",
                 "image" => "https://cdn.discordapp.com/avatars/568115736904597518/089b0169b90b5f1ff5b25e4a1eaa9d0f.png?size=1024",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "mrsrc",
@@ -37,6 +40,9 @@ Route::get('/member', function () {
                 "description" => "No fear. No hate. No anger.",
                 "image" => "https://cdn.discordapp.com/avatars/594800940088033291/9f9ad4a8d57163184766365aa3d2f666.png?size=1024",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "kynguyenngoc",
@@ -44,6 +50,9 @@ Route::get('/member', function () {
                 "description" => "Hiện đang lưu lạc ở ENS Paris, gà mờ trong Cryptography :)",
                 "image" => "https://cdn.discordapp.com/avatars/293907842984050690/ae2314d2b7932aed2c76f69d40e92bb8.png?size=1024",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "lampard",
@@ -51,6 +60,9 @@ Route::get('/member', function () {
                 "description" => "...",
                 "image" => "https://cdn.discordapp.com/avatars/411180243987202061/20720c9b0ed442da1cdc56797525ece0.png?size=1024",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "ks75vl",
@@ -58,6 +70,9 @@ Route::get('/member', function () {
                 "description" => "",
                 "image" => "https://cdn.discordapp.com/avatars/653451018830479364/362be8bdc4e34cdd3d888d4a2b018e4b.png?size=1024",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "luibo",
@@ -65,6 +80,9 @@ Route::get('/member', function () {
                 "description" => "",
                 "image" => "https://cdn.discordapp.com/avatars/621374396967419938/3680ae0c4ffd47477aa65256697627b9.png?size=1024",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "196",
@@ -72,6 +90,9 @@ Route::get('/member', function () {
                 "description" => "Em là tạ, xin hãy gánh em. Hu hu :((",
                 "image" => "https://cdn.discordapp.com/avatars/398440248352178177/e149e6d38525db151f82be581894700f.png?size=1024",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "nt",
@@ -79,6 +100,9 @@ Route::get('/member', function () {
                 "description" => "",
                 "image" => "https://cdn.discordapp.com/avatars/548554405968871471/20b090c4915a81029839ef30132821dc.png?size=1024",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "Meganecon",
@@ -86,6 +110,9 @@ Route::get('/member', function () {
                 "description" => "Octave is better than Matlab!",
                 "image" => "https://cdn.discordapp.com/avatars/254170660362911744/2794f9313673432560d64904778961e4.png?size=1024",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "zl4",
@@ -93,6 +120,9 @@ Route::get('/member', function () {
                 "description" => "Sinh viên năm 3, cùi bắp :)))",
                 "image" => "https://cdn.discordapp.com/avatars/454310620834037781/bc201fd42fc83b5b05576dc6fa49e6df.png?size=1024",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "huiche",
@@ -100,6 +130,9 @@ Route::get('/member', function () {
                 "description" => "",
                 "image" => "https://cdn.discordapp.com/avatars/475538578735366144/6d1c84c0a5e83827f79e37a40a474840.png?size=1024",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "pickaxe",
@@ -107,6 +140,9 @@ Route::get('/member', function () {
                 "description" => "Mình chơi pwn",
                 "image" => "https://t4.ftcdn.net/jpg/03/00/65/79/240_F_300657927_89Qk6NVB3ZykkAVJFgqGOniV4Xejlr6j.jpg",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "lifebow",
@@ -114,6 +150,9 @@ Route::get('/member', function () {
                 "description" => "Cục tạ ngàn cân. Noob trên mọi lĩnh vực.",
                 "image" => "https://t4.ftcdn.net/jpg/03/00/65/79/240_F_300657927_89Qk6NVB3ZykkAVJFgqGOniV4Xejlr6j.jpg",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "midas",
@@ -121,6 +160,9 @@ Route::get('/member', function () {
                 "description" => "pepega",
                 "image" => "https://cdn.discordapp.com/avatars/349404734643372032/a53b19e4e71151cf7e3395a0a6d6d4d7.png?size=1024",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "retis",
@@ -128,6 +170,9 @@ Route::get('/member', function () {
                 "description" => "Đang trên con đường thu phục quái zật RE.",
                 "image" => "https://cdn.discordapp.com/avatars/467910729199255582/e0de6db1bd06cf0a10d30ccc4be7a8c3.png?size=1024",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "DoubleVKay",
@@ -135,6 +180,9 @@ Route::get('/member', function () {
                 "description" => "Mình rất thích ăn uống và hay sống ảo :>",
                 "image" => "https://cdn.discordapp.com/avatars/642395500456312832/96d57e13a26aa0be84282f5f65e7bd66.png?size=1024",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "pcback",
@@ -142,6 +190,9 @@ Route::get('/member', function () {
                 "description" => ":v",
                 "image" => "https://cdn.discordapp.com/avatars/515395719616790529/fe1cdb994ca5d2c44ae403bc41086018.png?size=1024",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "Catafact",
@@ -149,6 +200,9 @@ Route::get('/member', function () {
                 "description" => "Thích chơi DotA 2",
                 "image" => "https://cdn.discordapp.com/avatars/621483697970872320/30287c8cc4ccf5f90fdec9a955994d81.png?size=1024",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "MN",
@@ -156,6 +210,9 @@ Route::get('/member', function () {
                 "description" => ":)) ",
                 "image" => "https://cdn.discordapp.com/avatars/492533393091985419/35fc33b6a4cf471fe9c67fcd6ee7c9f1.png?size=1024",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "redandblue",
@@ -163,6 +220,9 @@ Route::get('/member', function () {
                 "description" => "Em còn kém :)",
                 "image" => "https://cdn.discordapp.com/avatars/622431038064295949/a22a111d5e4740da139b22e8859a8c02.png?size=1024",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "Blackfrost",
@@ -170,6 +230,9 @@ Route::get('/member', function () {
                 "description" => "Một thanh niên 18 tuổi tập tành chơi CTF.",
                 "image" => "https://cdn.discordapp.com/avatars/333228117692907531/bacf90bdd8d33412b2bef07f41380e98.png?size=1024",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "Edisc",
@@ -177,6 +240,9 @@ Route::get('/member', function () {
                 "description" => "Edisc stands for \"even die I still continue\".",
                 "image" => "https://cdn.discordapp.com/avatars/622596145004150786/5ea5f8f004943493a6c0df36a3ab0e2b.png?size=1024",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "JstD",
@@ -184,6 +250,9 @@ Route::get('/member', function () {
                 "description" => "Muốn tham gia vào mảng crypto",
                 "image" => "https://cdn.discordapp.com/avatars/621525623747379202/7209a1504e724107b95bd9c6ff47bd4d.png?size=1024",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "lunaa",
@@ -191,6 +260,9 @@ Route::get('/member', function () {
                 "description" => "Em là trainee của efiens, field của em là PWN, em còn gà lắm",
                 "image" => "https://cdn.discordapp.com/avatars/621499751057195011/230f4683478f410cec9f7901b4d25faa.png?size=1024",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "catperson",
@@ -198,6 +270,9 @@ Route::get('/member', function () {
                 "description" => "Nhạt :D",
                 "image" => "https://cdn.discordapp.com/avatars/621390751867076668/43118b34d0aa1ea4fbc1088dd7245106.png?size=1024",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
             (object) array(
                 "name" => "_.npn._",
@@ -205,6 +280,9 @@ Route::get('/member', function () {
                 "description" => "Em mới tập picoCTF thôi :') mong các anh chỉ giáo thêm ạ",
                 "image" => "https://cdn.discordapp.com/avatars/622454613408219170/61a45137641591a08e4da4c15644f0ed.png?size=1024",
                 "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
             ),
         ],
         "leaders" => [(object) array(
@@ -213,6 +291,9 @@ Route::get('/member', function () {
             "description" => "Team leader",
             "image" => "https://cdn.discordapp.com/avatars/568115736904597518/089b0169b90b5f1ff5b25e4a1eaa9d0f.png?size=1024",
             "mail" => "",
+            "fb" => "",
+            "tw" => "",
+            "lk" => "",
         ),],
         "advisors" =>  [(object) array(
             "name" => "cothan",
@@ -220,6 +301,9 @@ Route::get('/member', function () {
             "description" => "Team leader",
             "image" => "https://cdn.discordapp.com/avatars/568115736904597518/089b0169b90b5f1ff5b25e4a1eaa9d0f.png?size=1024",
             "mail" => "",
+            "fb" => "",
+            "tw" => "",
+            "lk" => "",
         ),],
     ]);
 });

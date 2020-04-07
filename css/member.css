@@ -160,13 +160,13 @@ h3 {
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
-  }
-  .overlay:target {
+}
+.overlay:target {
     visibility: visible;
     opacity: 1;
-  }
-  
-  .popup {
+}
+
+.popup {
     margin: 5rem auto;
     padding: 2rem;
     background: #fff;
@@ -174,14 +174,14 @@ h3 {
     width: 40%;
     position: relative;
     transition: all 1s ease-in-out;
-  }
-  
-  .popup h2 {
+}
+
+.popup h2 {
     margin-top: 0;
     color: #333;
     font-family: Tahoma, Arial, sans-serif;
-  }
-  .popup .close {
+}
+.popup .close {
     position: absolute;
     top: 20px;
     right: 30px;
@@ -190,22 +190,26 @@ h3 {
     font-weight: bold;
     text-decoration: none;
     color: #333;
-  }
-  .popup .close:hover {
+}
+.popup .close:hover {
     color: var(--main-bg-color);
-  }
-  .popup .content {
+}
+.popup .content {
     max-height: 40%;
     overflow: auto;
     color: var(--header-footer);
     text-align: justify;
-  }
-  
-  @media screen and (max-width: 700px){
-    .box{
-      width: 70%;
+}
+
+@media screen and (max-width: 700px) {
+    .box {
+        width: 70%;
     }
-    .popup{
-      width: 70%;
+    .popup {
+        width: 70%;
     }
-  }
+}
+
+.social:hover {
+    text-decoration: none;
+}

@@ -143,7 +143,10 @@ a:hover {
     }
     .activity__content {
         grid-template-columns: 1fr !important;
-        margin-top: 0 !important;
+        margin-top: 2rem !important;
+    }
+    .footer__content {
+        flex-direction: column !important;
     }
 }
 
@@ -175,7 +178,7 @@ a:hover {
 .sponsors__logo {
     height: 4rem;
     object-fit: contain;
-    margin: 0 1rem;
+    margin: 0 0.5rem;
 }
 
 .ourteam {
@@ -248,4 +251,15 @@ a:hover {
     100% {
         box-shadow: 0 0 3px #3dadf2;
     }
+}
+
+.footer__social__icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    object-fit: contain;
+    margin: 0 0.5rem;
+}
+
+.social:hover {
+    text-decoration: none;
 }

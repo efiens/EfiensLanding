@@ -26,7 +26,7 @@
                             id="email"
                             placeholder="Where can we reach you?"
                             required=""
-                        /><label>e-mail</label>
+                        /><label>E-mail</label>
                     </div>
                     <div class="control">
                         <textarea
@@ -39,9 +39,18 @@
                     <input type="submit" value="send"/>
                 </fieldset>
                 <hr style="border-color: #2980b9;"/>
-                <p>OTHER WAY</p>
-                <p>abc@abc.com</p>
-                <p>(89) 08da dada dads</p>
+                <legend>Other channels</legend>
+                <a href="mailto:efiens.team@gmail.com?Subject=[Hello Efiens]" target="_top">efiens.team@gmail.com</a>
+                <br/><br/>
+                <a class="social" href="https://www.facebook.com/efiens.team" target="_blank">
+                    <img class="social__icon" src="/img/icon/facebook.png" alt="fb" />
+                </a>
+                <a class="social" href="https://twitter.com/efiens.team" target="_blank">
+                    <img class="social__icon" src="/img/icon/twitter.png" alt="twitter" />
+                </a>
+                <a class="social" href="https://discord.gg/ZzkVUKK" target="_blank">
+                    <img class="social__icon" src="/img/icon/discord.png" alt="discord" />
+                </a>
             </form>
         </div>
     </div>
