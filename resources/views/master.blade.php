@@ -60,9 +60,13 @@
         @section('content')
         @show
     </div>
+    <div>
+        @section('content2')
+        @show
+    </div>
     <footer class="footer">
-        <div class="container"
-            <p>Sponsors</p>
+        <div class="container">
+            <!-- <p>Sponsors</p>
             <div style="display: flex; justify-content: space-between;">
             @component('sponsor',["sponsors" => [
                 (object) array(
@@ -79,7 +83,7 @@
                 ),
             ]])
             @endcomponent
-            </div>
+            </div> -->
             <div style="display: flex; justify-content: space-between;">
                 <p style="margin: 0;">© 2020 Efiens.</p>
                 <a href="#">Back to top</a>
