@@ -86,10 +86,12 @@
             @endcomponent
             </div> -->
             <div class="footer__content" style="display: flex; justify-content: space-between;">
-                <div>
-                    <p>CONTACT US</p>
-                    <a href="mailto:efiens.team@gmail.com?Subject=[Hello Efiens]" target="_top">efiens.team@gmail.com</a>
-                    <br/><br/>
+                <div style="display: flex; align-items: center;">
+                    <p style="margin: 0;">© 2020 Efiens|</p>
+                    <div style="display: inline-flex; padding-bottom: 6px;">
+                    <a class="social" href="mailto:efiens.team@gmail.com?Subject=[Hello Efiens]" target="_top">
+                        <img class="footer__social__icon" src="/img/icon/gmail.png" alt="gmail" />
+                    </a>
                     <a class="social" href="https://www.facebook.com/efiens.team" target="_blank">
                         <img class="footer__social__icon" src="/img/icon/facebook.png" alt="fb" />
                     </a>
@@ -99,8 +101,7 @@
                     <a class="social" href="https://discord.gg/ZzkVUKK" target="_blank">
                         <img class="footer__social__icon" src="/img/icon/discord.png" alt="discord" />
                     </a>
-                    <br/><br/>
-                    <p style="margin: 0; margin-bottom: 1rem;">© 2020 Efiens.</p>
+                    </div>
                 </div>
                 <div>
                     <a href="#">Back to top</a>

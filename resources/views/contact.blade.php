@@ -40,6 +40,7 @@
                 </fieldset>
                 <hr style="border-color: #2980b9;"/>
                 <legend>Other channels</legend>
+                <p>Address: Block B1, HCMUT Ly Thuong Kiet Campus</p>
                 <a href="mailto:efiens.team@gmail.com?Subject=[Hello Efiens]" target="_top">efiens.team@gmail.com</a>
                 <br/><br/>
                 <a class="social" href="https://www.facebook.com/efiens.team" target="_blank">
