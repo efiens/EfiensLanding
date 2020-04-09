@@ -87,19 +87,19 @@
             </div> -->
             <div class="footer__content" style="display: flex; justify-content: space-between;">
                 <div style="display: flex; align-items: center;">
-                    <p style="margin: 0;">© 2020 Efiens|</p>
+                    <p style="margin: 0;">© 2020 Efiens | </p>
                     <div style="display: inline-flex; padding-bottom: 6px;">
                     <a class="social" href="mailto:efiens.team@gmail.com?Subject=[Hello Efiens]" target="_top">
-                        <img class="footer__social__icon" src="/img/icon/gmail.png" alt="gmail" />
+                        <img class="footer__social__icon" src="/img/logo/gmail_gray@2x.png" alt="gmail" />
                     </a>
                     <a class="social" href="https://www.facebook.com/efiens.team" target="_blank">
-                        <img class="footer__social__icon" src="/img/icon/facebook.png" alt="fb" />
+                        <img class="footer__social__icon" src="/img/logo/facebook_gray@2x.png" alt="fb" />
                     </a>
                     <a class="social" href="https://twitter.com/efiens.team" target="_blank">
-                        <img class="footer__social__icon" src="/img/icon/twitter.png" alt="twitter" />
+                        <img class="footer__social__icon" src="/img/logo/twitter_gray@2x.png" alt="twitter" />
                     </a>
                     <a class="social" href="https://discord.gg/ZzkVUKK" target="_blank">
-                        <img class="footer__social__icon" src="/img/icon/discord.png" alt="discord" />
+                        <img class="footer__social__icon" src="/img/logo/discord_gray@2x.png" alt="discord" />
                     </a>
                     </div>
                 </div>
