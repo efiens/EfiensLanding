@@ -88,7 +88,7 @@
             <div class="footer__content" style="display: flex; justify-content: space-between;">
                 <div style="display: flex; align-items: center;">
                     <p style="margin: 0;">© 2020 Efiens | </p>
-                    <div style="display: inline-flex; padding-bottom: 6px;">
+                    <div style="display: inline-flex; padding-bottom: 1px; padding-left: 5px">
                     <a class="social" href="mailto:efiens.team@gmail.com?Subject=[Hello Efiens]" target="_top">
                         <img class="footer__social__icon" src="/img/logo/gmail_gray@2x.png" alt="gmail" />
                     </a>
