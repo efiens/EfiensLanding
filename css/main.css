@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Inconsolata:700&display=swap");
+@font-face {
+    font-family: 'monacoregular';
+    src: url('monaco-webfont.woff2') format('woff2'),
+         url('monaco-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 :root {
     --main-bg-color: #004b8d;
     --header-footer: rgb(0, 49, 92);
@@ -26,7 +34,7 @@ body {
 }
 
 * {
-    font-family: "Proxima Nova", Hack, Monaco, Consolas, monospace;
+    font-family: 'monacoregular', monospace;
     color: #fff;
 }
 
