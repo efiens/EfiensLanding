@@ -8,27 +8,22 @@
         <div class="activity__content__item">
             <img class="activity__content__item__icon" src="./img/icon/podium.png" alt="Active CTF Competitor" />
             <h4>Active CTF Competitor</h4>
-            <p>Efiens practices computer security through CTFs competitions around the world. As an academic team,
-                we have participated in national competitions and received many awards.</p>
+            <p>Efiens is an active member of CTFtime.org. We have been participating in a huge number of competitions both nationwide and worldwide. </p>
         </div>
         <div class="activity__content__item">
             <img class="activity__content__item__icon" src="./img/icon/man.png" alt="Weekly sharing" />
             <h4>Weekly sharing</h4>
-            <p>We thrive to learn and share our knowledge on weekly sharing seminars among club members.
-                Weekly meetings are hosted by our members, to discuss CTFs problems solution and relevant topics of cyber security.
-                We occasionally gather around at weekends to participate in CTFs in order to hone our skills.</p>
+            <p>We are eager to learn and share new knowledge about cybersecurity. Every week, the team’s members host several seminars to discuss solutions to CTF problems or relevant topics of cybersecurity.</p>
         </div>
         <div class="activity__content__item">
             <img class="activity__content__item__icon" src="./img/icon/science-research.png" alt="Educational resources" />
             <h4>Educational resources</h4>
-            <p>We cumulates security resources through researches for both educational purposes and enterprise solution.
-                We also grant electable candidates with internships and job opportunities.</p>
+            <p>Ever since founded, we have cummulated a vast amount of resources of all topics in cybersecurity via doing research and practicing CTFs for both educational purposes and enterprise solutions. Every year, we also nominate young and talented people for internships and job opportunities in the industry.</p>
         </div>
         <div class="activity__content__item">
             <img class="activity__content__item__icon" src="./img/icon/cryptography.png" alt="Applied cryptography research" />
             <h4>Applied cryptography research</h4>
-            <p>Efiens was originally a cryptography research team. We research novel cryptography terminology for applications
-                in security field and train potential young mathematics Master/PhD candidates.</p>
+            <p>Efiens was originally a cryptography research team. We research novel cryptographic topics both theoretical and practical. Through time, many of our members have acquired scholarships for postgraduate study in this field at top-ranking universities.</p>
         </div>
     </div>
 </div>
