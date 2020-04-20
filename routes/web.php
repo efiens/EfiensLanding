@@ -294,7 +294,7 @@ Route::get('/member', function () {
             "fb" => "",
             "tw" => "",
             "lk" => "",
-        ),],
+            ),],
         "advisors" =>  [(object) array(
             "name" => "cothan",
             "title" => "",
@@ -304,7 +304,18 @@ Route::get('/member', function () {
             "fb" => "",
             "tw" => "",
             "lk" => "",
-        ),],
+            ),
+            (object) array(
+                "name" => "Nguyen An Khuong",
+                "title" => "",
+                "description" => "Founder, Advisor",
+                "image" => "",
+                "mail" => "",
+                "fb" => "",
+                "tw" => "",
+                "lk" => "",
+            ),
+        ],
     ]);
 });
 Route::get('/achievement', function () {
