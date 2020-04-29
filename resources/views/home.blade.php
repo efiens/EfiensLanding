@@ -31,7 +31,7 @@
     <div class="container-xl container-cus ourteam__content" style="margin-top: -3rem;">
         <div>
             <h3>Our Team</h3>
-            <p style="margin-bottom: 2rem">With our team of more than 25 persons we provide the full service to our clients in our offices in Ho Chi Minh City and Hanoi. For every client, we will organize a dedicated team and agree on the services exactly according to the specific needs.</p>
+            <p style="margin-bottom: 2rem">With our team of more than 25 members, we believe to maintain the activities of cyber security field growing constantly in HCMUT and to keep the educational environment for our potential, well-trained future security engineers.</p>
             <a href="/member" class="ourteam__button">See members</a>
         </div>
         <img class="ourteam__img" src="https://miro.medium.com/max/764/1*DR3m8YaZrHX32fnCaK8Ppg.png" alt="members" />
