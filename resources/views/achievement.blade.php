@@ -13,6 +13,30 @@
     </div>
     @endforeach
 </div>
+
+<h3>NSUCRYPTO Contest</h3>
+<link rel="stylesheet" href="{{ asset('css/blog.css') }}" />
+<div class="blog">
+    @foreach ($nsucrypto as $nsu)
+        <article class="card">
+        <header class="card__thumb">
+            <a href="{{$nsu->link}}" target="_blank"><img src="{{$nsu->image}}" /></a>
+        </header>
+
+        <div class="card__body">
+            <div class="card__category"><a href="#">{{$nsu->category}}</a></div>
+            <h2 class="card__title"><a href="{{$nsu->link}}" target="_blank">{{$nsu->title}}</a></h2>
+            <div class="card__subtitle">{{$nsu->place}}</div>
+            <p class="card__description text">{{$nsu->member}}</p>
+        </div>
+
+        <footer class="card__footer">
+            Tags: {{$nsu->tags}}
+        </footer>
+        </article>
+    @endforeach
+</div>
+
 <h3>Publication / Conference</h3>
 <!-- <div class="achievement">
     @foreach($achievements as $achievement)
