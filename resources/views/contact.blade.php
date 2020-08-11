@@ -36,7 +36,9 @@
                         ></textarea
                         ><label>Message</label>
                     </div>
-                    <input type="submit" value="send"/>
+                    <a href="mailto:efiens.team@gmail.com,support@efiens.com?subject=Feedback&body=Hello%20Efiens" type="submit">
+                        SEND
+                    </a>
                 </fieldset>
                 <hr style="border-color: #2980b9;"/>
                 <legend>Other channels</legend>
