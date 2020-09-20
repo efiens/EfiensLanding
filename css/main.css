@@ -122,8 +122,8 @@ a:hover {
 }
 
 .footer {
-    bottom: 0;
-    /* position: absolute; */
+    position: sticky;
+    top: 100%;
     background-color: var(--header-footer);
     padding: 2rem 0;
     width: 100%;

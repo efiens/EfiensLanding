@@ -40,6 +40,7 @@
 
 <div class="container-xl container-cus" style="text-align: center;">
     <h3>Sponsors</h3>
+    <img class="sponsors__logo" src="./img/logo-hcmut.svg" alt="HCMUT" />
     <img class="sponsors__logo" src="img/sponsor_vnsec.png" alt="VNSEC">
     <img class="sponsors__logo" src="img/sponsor_vng.png" alt="VNG">
 </div>

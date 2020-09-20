@@ -18,7 +18,7 @@
                 @if (request()->is('/'))
                     Efiens
                 @else
-                    <img style="height: 4rem" src="./img/EFIENS-10-07.png" alt="Efiens" />
+                    <img style="height: 4rem" src="./img/EFIENS-10-07.svg" alt="Efiens" />
                 @endif
             </a>
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
@@ -51,7 +51,7 @@
     @if ($header)
     <div class="text-center center text-header" style="flex-direction: column;">
         @if (request()->is('/'))
-            <img height="70%" src="./img/EFIENS-10-07.png" alt="Efiens" />
+            <img height="70%" src="./img/EFIENS-10-07.svg" alt="Efiens" />
         @else
             <p class="header">@yield('header')</p>
         @endif
