@@ -442,80 +442,72 @@ Route::get('/achievement', function () {
                 "tags" => "Pwn, Exploit"
             ),
         ],
-        "nsucrypto" => array(
+        "nsucrypto" => [
             (object) array(
                 "title" => "NSUCRYPTO 2019",
-                "category" => "for university students",
                 "link" => "https://nsucrypto.nsu.ru/archive/2019/total_results/#data",
                 "image" => "https://nsucrypto.nsu.ru/static/base/img/biglogo_new.jpg",
-                "place" => "Second place (rank 2)",
-                "member" => "Ngoc Ky Nguyen, Dung Truong, Phuoc Nguyen Ho Minh",
-                "tags" => "Crypto"
-            ),
-            (object) array(
-                "title" => "NSUCRYPTO 2019",
-                "category" => "for university students",
-                "link" => "https://nsucrypto.nsu.ru/archive/2019/total_results/#data",
-                "image" => "https://nsucrypto.nsu.ru/static/base/img/biglogo_new.jpg",
-                "place" => "Second place (rank 3)",
-                "member" => "Thanh Nguyen Van, Quoc Bao Nguyen, Ngan Nguyen",
-                "tags" => "Crypto"
-            ),
-            (object) array(
-                "title" => "NSUCRYPTO 2019",
-                "category" => "for professionals",
-                "link" => "https://nsucrypto.nsu.ru/archive/2019/total_results/#data",
-                "image" => "https://nsucrypto.nsu.ru/static/base/img/biglogo_new.jpg",
-                "place" => "Third place (rank 5)",
-                "member" => "Duc Tri Nguyen, Tuong Nguyen (and 1 other)",
-                "tags" => "Crypto"
+                "tags" => "Crypto",
+                "lists" => array(
+                    (object) array(
+                        "category" => "for university students",
+                        "place" => "Second place (rank 2)",
+                        "member" => "Ngoc Ky Nguyen, Dung Truong, Phuoc Nguyen Ho Minh",
+                    ),
+                    (object) array(
+                        "category" => "for university students",
+                        "place" => "Second place (rank 3)",
+                        "member" => "Thanh Nguyen Van, Quoc Bao Nguyen, Ngan Nguyen",
+                    ),
+                    (object) array(
+                        "category" => "for professionals",
+                        "place" => "Third place (rank 5)",
+                        "member" => "Duc Tri Nguyen, Tuong Nguyen (and 1 other)",
+                    )
+                ),
             ),
             (object) array(
                 "title" => "NSUCRYPTO 2018",
-                "category" => "for university students",
                 "link" => "https://nsucrypto.nsu.ru/archive/2018/total_results/#data",
                 "image" => "https://nsucrypto.nsu.ru/static/base/img/biglogo_new.jpg",
-                "place" => "Second place (rank 4)",
-                "member" => "Thanh Nguyen Van, Tuong Nguyen Van (and 1 other)",
-                "tags" => "Crypto"
-            ),
-            (object) array(
-                "title" => "NSUCRYPTO 2018",
-                "category" => "for university students",
-                "link" => "https://nsucrypto.nsu.ru/archive/2018/total_results/#data",
-                "image" => "https://nsucrypto.nsu.ru/static/base/img/biglogo_new.jpg",
-                "place" => "Third place (rank 5)",
-                "member" => "Ngoc Ky Nguyen, Phuoc Nguyen Ho Minh (and 1 other)",
-                "tags" => "Crypto"
-            ),
-            (object) array(
-                "title" => "NSUCRYPTO 2018",
-                "category" => "for professionals",
-                "link" => "https://nsucrypto.nsu.ru/archive/2018/total_results/#data",
-                "image" => "https://nsucrypto.nsu.ru/static/base/img/biglogo_new.jpg",
-                "place" => "Diploma",
-                "member" => "Duc Tri Nguyen, Quoc Bao Nguyen (and 1 other)",
-                "tags" => "Crypto"
+                "tags" => "Crypto",
+                "lists" => array(
+                    (object) array (
+                        "category" => "for university students",
+                        "place" => "Second place (rank 4)",
+                        "member" => "Thanh Nguyen Van, Tuong Nguyen Van (and 1 other)",
+                    ),
+                    (object) array(
+                        "category" => "for university students",
+                        "place" => "Third place (rank 5)",
+                        "member" => "Ngoc Ky Nguyen, Phuoc Nguyen Ho Minh (and 1 other)",
+                    ),
+                    (object) array(
+                        "place" => "Diploma",
+                        "category" => "for professionals",
+                        "member" => "Duc Tri Nguyen, Quoc Bao Nguyen (and 1 other)",
+                    ),
+                ),
             ),
             (object) array(
                 "title" => "NSUCRYPTO 2017",
-                "category" => "for university students",
                 "link" => "https://nsucrypto.nsu.ru/archive/2017/total_results/#data",
                 "image" => "https://nsucrypto.nsu.ru/static/base/img/biglogo_new.jpg",
-                "place" => "Third place (rank 5)",
-                "member" => "Ngoc Ky Nguyen, Thanh Nguyen Van, Phuoc Nguyen Ho Minh",
-                "tags" => "Crypto"
+                "tags" => "Crypto",
+                "lists" => array(
+                    (object) array (
+                        "category" => "for university students",
+                        "place" => "Third place (rank 5)",
+                        "member" => "Ngoc Ky Nguyen, Thanh Nguyen Van, Phuoc Nguyen Ho Minh",
+                    ),
+                    (object) array(
+                        "category" => "for professionals",
+                        "place" => "Third place (rank 4)",
+                        "member" => "Duc Tri Nguyen (and 2 others)",
+                    ),
+                ),
             ),
-            (object) array(
-                "title" => "NSUCRYPTO 2017",
-                "category" => "for professionals",
-                "link" => "https://nsucrypto.nsu.ru/archive/2017/total_results/#data",
-                "image" => "https://nsucrypto.nsu.ru/static/base/img/biglogo_new.jpg",
-                "place" => "Third place (rank 4)",
-                "member" => "Duc Tri Nguyen (and 2 others)",
-                "tags" => "Crypto"
-            )
-        )
+        ],
     ]);
 });
 Route::get('/blog', function () {

@@ -15,27 +15,30 @@
 </div>
 
 <h3>NSUCRYPTO Contest</h3>
-<link rel="stylesheet" href="{{ asset('css/blog.css') }}" />
-<div class="blog">
-    @foreach ($nsucrypto as $nsu)
-        <article class="card">
-        <header class="card__thumb">
-            <a href="{{$nsu->link}}" target="_blank"><img src="{{$nsu->image}}" /></a>
-        </header>
 
-        <div class="card__body">
-            <div class="card__category"><a href="#">{{$nsu->category}}</a></div>
-            <h2 class="card__title"><a href="{{$nsu->link}}" target="_blank">{{$nsu->title}}</a></h2>
-            <div class="card__subtitle">{{$nsu->place}}</div>
-            <p class="card__description text">{{$nsu->member}}</p>
-        </div>
-
-        <footer class="card__footer">
-            Tags: {{$nsu->tags}}
-        </footer>
-        </article>
-    @endforeach
-</div>
+    <table class="content-table">
+        <thead>
+            <tr>
+            <th>Place</th>
+            <th>Name</th>
+            <th>Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach ($nsucrypto as $nsus)
+                <tr>
+                    <td><a href="{{$nsus->link}}" target="_blank">{{$nsus->title}}</a></td>
+                </tr>
+                @foreach ($nsus->lists as $nus)
+                    <tr>
+                        <td>{{$nus->place}}</td>
+                        <td>{{$nus->member}}</td>
+                        <td>{{$nus->category}}</td>
+                    </tr>
+                @endforeach
+            @endforeach
+        </tbody>
+    </table>
 
 <h3>Publication / Conference</h3>
 <!-- <div class="achievement">
@@ -75,14 +78,14 @@
             <br/>
             <span class="card__date__month">{{$blog->month}}</span>
         </date>
-        
+
         <div class="card__body">
             <div class="card__category"><a href="#">{{$blog->category}}</a></div>
             <h2 class="card__title"><a href="{{$blog->link}}" target="_blank">{{$blog->title}}</a></h2>
             <div class="card__subtitle">{{$blog->author}}</div>
             <p class="card__description text">{{$blog->description}}</p>
         </div>
-        
+
         <footer class="card__footer">
             Tags: {{$blog->tags}}
         </footer>
