@@ -85,28 +85,37 @@
             ]])
             @endcomponent
             </div> -->
-            <div class="footer__content" style="display: flex; justify-content: space-between;">
-                <div style="display: flex; align-items: center;">
-                    <p style="margin: 0;">© 2020 Efiens | </p>
-                    <div style="display: inline-flex; padding-bottom: 1px; padding-left: 5px">
-                    <a class="social" href="mailto:efiens.team@gmail.com?Subject=[Hello Efiens]" target="_top">
-                        <img class="footer__social__icon" src="/img/logo/gmail_gray@2x.png" alt="gmail" />
-                    </a>
-                    <a class="social" href="https://www.facebook.com/efiens.team" target="_blank">
-                        <img class="footer__social__icon" src="/img/logo/facebook_gray@2x.png" alt="fb" />
-                    </a>
-                    <a class="social" href="https://twitter.com/efiens.team" target="_blank">
-                        <img class="footer__social__icon" src="/img/logo/twitter_gray@2x.png" alt="twitter" />
-                    </a>
-                    <a class="social" href="https://discord.gg/ZzkVUKK" target="_blank">
-                        <img class="footer__social__icon" src="/img/logo/discord_gray@2x.png" alt="discord" />
-                    </a>
+            <div class="footer__content">
+                <div class="logoOgr">
+                    <div class="logoOgr__item">
+                        <h4 class="logoOgr__title">Sponsors</h4>
+                        <img class="sponsors__logo" src="img/sponsor_vnsec.png" alt="VNSEC">
+                        <img class="sponsors__logo" src="img/sponsor_vng.png" alt="VNG">
+                    </div>
+                    <div class="logoOgr__item">
+                        <h4 class="logoOgr__title">Part of</h4>
+                        <img class="sponsors__logo" src="./img/logo-hcmut.svg" alt="HCMUT" />
                     </div>
                 </div>
-                <div>
-                    <a href="#">Back to top</a>
+                <div class="footer__col__right">
+                    <div style="display: inline-flex; padding-bottom: 1px;">
+                        <a class="social" href="mailto:efiens.team@gmail.com?Subject=[Hello Efiens]" target="_top">
+                            <img class="footer__social__icon" src="/img/logo/gmail_gray@2x.png" alt="gmail" />
+                        </a>
+                        <a class="social" href="https://www.facebook.com/efiens.team" target="_blank">
+                            <img class="footer__social__icon" src="/img/logo/facebook_gray@2x.png" alt="fb" />
+                        </a>
+                        <a class="social" href="https://twitter.com/efiens.team" target="_blank">
+                            <img class="footer__social__icon" src="/img/logo/twitter_gray@2x.png" alt="twitter" />
+                        </a>
+                        <a class="social" href="https://discord.gg/ZzkVUKK" target="_blank">
+                            <img class="footer__social__icon" src="/img/logo/discord_gray@2x.png" alt="discord" />
+                        </a>
+                    </div>
+                    <p style="margin: 0;">© 2020 Efiens</p>
                 </div>
             </div>
+
         </div>
     </footer>
     <script src="{{ asset('js/jquery-3.4.1.slim.min.js') }}"></script>

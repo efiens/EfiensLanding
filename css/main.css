@@ -133,6 +133,50 @@ a:hover {
     background-color: var(--header-footer) !important;
 }
 
+.logoOgr {
+    display: flex;
+}
+
+.logoOgr__item:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.logoOgr__item {
+    position: relative;
+}
+
+.logoOgr__item:not(:first-child) {
+    padding-left: 1rem;
+}
+
+.logoOgr__item:not(:first-child)::before {
+    content : "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-style: solid;
+    border-width: 0 0 0 1px;
+    height: 70%;
+    margin: auto;
+}
+
+.logoOgr__title {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.footer__content {
+    display: flex; justify-content: space-between;
+}
+
+.footer__col__right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 1rem;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .container-cus {
@@ -155,6 +199,11 @@ a:hover {
     }
     .footer__content {
         flex-direction: column !important;
+        align-items: center;
+    }
+    .footer__col__right {
+        flex-direction: column-reverse;
+        align-items: center;
     }
 }
 
@@ -184,9 +233,12 @@ a:hover {
 }
 
 .sponsors__logo {
-    height: 4rem;
     object-fit: contain;
-    margin: 0 0.5rem;
+    background: white;
+    padding: 5px;
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
 }
 
 .ourteam {
@@ -232,9 +284,6 @@ a:hover {
     display: grid;
     gap: 3rem;
     margin: 4rem 0;
-}
-
-.activity__content__item {
 }
 
 .activity__content__item__icon {

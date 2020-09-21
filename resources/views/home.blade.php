@@ -37,11 +37,4 @@
         <img class="ourteam__img" src="https://miro.medium.com/max/764/1*DR3m8YaZrHX32fnCaK8Ppg.png" alt="members" />
     </div>
 </div>
-
-<div class="container-xl container-cus" style="text-align: center;">
-    <h3>Sponsors</h3>
-    <img class="sponsors__logo" src="./img/logo-hcmut.svg" alt="HCMUT" />
-    <img class="sponsors__logo" src="img/sponsor_vnsec.png" alt="VNSEC">
-    <img class="sponsors__logo" src="img/sponsor_vng.png" alt="VNG">
-</div>
 @endsection
