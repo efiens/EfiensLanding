@@ -36,7 +36,7 @@
                         ></textarea
                         ><label>Message</label>
                     </div>
-                    <a href="mailto:efiens.team@gmail.com,support@efiens.com?subject=Feedback&body=Hello%20Efiens" type="submit">
+                    <a href="mailto:efiens.team@gmail.com,support@efiens.com,efiens@hcmut.edu.vn?subject=Feedback&body=Hello%20Efiens" type="submit">
                         SEND
                     </a>
                 </fieldset>
@@ -44,6 +44,7 @@
                 <legend>Other channels</legend>
                 <p>Address: Block B1, HCMUT Ly Thuong Kiet Campus</p>
                 <a href="mailto:efiens.team@gmail.com?Subject=[Hello Efiens]" target="_top">efiens.team@gmail.com</a>
+                <a href="mailto:efiens@hcmut.edu.vn?Subject=[Hello Efiens]" target="_top">efiens@hcmut.edu.vn</a>
                 <br/><br/>
                 <a class="social" href="https://www.facebook.com/efiens.team" target="_blank">
                     <img class="social__icon" src="/img/logo/facebook_rbg@2x.png" alt="fb" />

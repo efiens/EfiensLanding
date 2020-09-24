@@ -99,7 +99,7 @@
                 </div>
                 <div class="footer__col__right">
                     <div style="display: inline-flex; padding-bottom: 1px;">
-                        <a class="social" href="mailto:efiens.team@gmail.com?Subject=[Hello Efiens]" target="_top">
+                        <a class="social" href="mailto:efiens.team@gmail.com,efiens@hcmut.edu.vn?Subject=[Hello Efiens]" target="_top">
                             <img class="footer__social__icon" src="/img/logo/gmail_gray@2x.png" alt="gmail" />
                         </a>
                         <a class="social" href="https://www.facebook.com/efiens.team" target="_blank">
