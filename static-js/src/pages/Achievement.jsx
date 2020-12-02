@@ -29,8 +29,61 @@ const nsu_prizes = [
         d: "for university students",
       },
       {
-        rank: "Second place (rank 2)",
+        rank: "Third place (rank 5)",
         players: "Duc Tri Nguyen, Tuong Nguyen (and 1 other)",
+        d: "for professionals",
+      },
+      {
+        rank: "Diploma",
+        players: "Phu Nghia Nguyen (and 2 others)",
+        d: "for professionals",
+      }
+    ],
+  },
+  {
+    link: "https://nsucrypto.nsu.ru/archive/2018/total_results/#data",
+    name: "NSUCRYPTO 2018",
+    prizes: [
+      {
+        rank: "Second place (rank 4)",
+        players: "Thanh Nguyen Van, Tuong Nguyen Van (and 1 other)",
+        d: "for university students",
+      },
+      {
+        rank: "Third place (rank 5)",
+        players: "Ngoc Ky Nguyen, Phuoc Nguyen Ho Minh (and 1 other)",
+        d: "for university students",
+      },
+      {
+        rank: "Diploma",
+        players: "Duc Tri Nguyen, Quoc Bao Nguyen (and 1 other)",
+        d: "for professionals",
+      },
+    ],
+  },
+  {
+    link: "https://nsucrypto.nsu.ru/archive/2017/total_results/#data",
+    name: "NSUCRYPTO 2017",
+    prizes: [
+      {
+        rank: "Third place (rank 5)",
+        players: "Ngoc Ky Nguyen, Thanh Nguyen Van, Phuoc Nguyen Ho Minh",
+        d: "for university students",
+      },
+      {
+        rank: "Third place (rank 4)",
+        players: "Duc Tri Nguyen (and 2 others)",
+        d: "for professionals",
+      },
+    ],
+  },
+  {
+    link: "https://nsucrypto.nsu.ru/archive/2016/total_results/#data",
+    name: "NSUCRYPTO 2016",
+    prizes: [
+      {
+        rank: "Third place (rank 5)",
+        players: "Duc Tri Nguyen (and 2 others)",
         d: "for professionals",
       },
     ],
