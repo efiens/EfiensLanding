@@ -8,8 +8,78 @@ import blog_template_image from "../img/EFIENS-04.png";
 const contests = [
   {
     img_link: "https://ctftime.org/static/images/nologo.png",
-    name: "TetCTF",
+    name: "TetCTF 2020",
     rank: "1/167",
+  },
+  {
+    img_link: "https://ctftime.org/media/cache/1c/4f/1c4f5d3ae15b0974026b301ea065c1a3.png",
+    name: "DarkCTF 2020",
+    rank: "7/808",
+  },
+  {
+    img_link: "https://ctftime.org/media/cache/4d/f6/4df672bc635593eafc6018ca7cb1424f.png",
+    name: "ångstromCTF 2020",
+    rank: "8/1596",
+  },
+  {
+    img_link: "https://ctftime.org/media/cache/07/bb/07bbf0b9505ef8f210de38709929bf8d.png",
+    name: "InCTF 2020",
+    rank: "20/557",
+  },
+  {
+    img_link: "https://ctftime.org/media/cache/4d/49/4d491dd66dfe1d3dc328473e51677204.png",
+    name: "Aero CTF 2020",
+    rank: "22/273",
+  },
+  {
+    img_link: "https://ctftime.org/media/cache/e4/ca/e4ca63164dc07f06b3b9cc858379a71b.png",
+    name: "justCTF 2019",
+    rank: "7/347",
+  },
+  {
+    img_link: "https://ctftime.org/media/cache/86/ba/86bae7efae97afa65b76c37e4c17a031.png",
+    name: "Pwn2Win CTF 2019",
+    rank: "13/220",
+  },
+  {
+    img_link: "https://ctftime.org/media/cache/b6/2a/b62a4273af867541f65c1105f341faca.png",
+    name: "InCTF 2019",
+    rank: "11/433",
+  },
+  {
+    img_link: "https://ctftime.org/media/cache/ca/16/ca162d39a9fa1e02c12199407b8fb963.png",
+    name: "ISITDTU CTF 2019 Finals",
+    rank: "8/12",
+  },
+  {
+    img_link: "https://ctftime.org/media/cache/10/af/10af3d65f221a312e4d8e3ed98beb224.png",
+    name: "AceBear Security Contest 2019",
+    rank: "3/142",
+  },
+  {
+    img_link: "https://ctftime.org/media/cache/ec/ff/ecff7159a4972b56caaa55cfce2de18b.png",
+    name: "ISITDTU CTF 2018 Final",
+    rank: "8/12",
+  },
+  {
+    img_link: "https://ctftime.org/media/cache/35/66/356681eca2e48abd4214a24daa983a59.png",
+    name: "AceBear Security Contest 2018",
+    rank: "9/139",
+  },
+  {
+    img_link: "https://ctftime.org/media/cache/4b/58/4b58b9e55897fb542c2933ed3c1c423b.png",
+    name: "TUCTF 2018",
+    rank: "70/764",
+  },
+  {
+    img_link: "https://ctftime.org/media/cache/a1/1e/a11ea05f01614b194bba530b2ec9f0a2.png",
+    name: "picoCTF 2018",
+    rank: "47/2898",
+  },
+  {
+    img_link: "https://ctftime.org/media/cache/07/3a/073a6bba53f3092489ea4e2ece18d8c3.png",
+    name: "HSCTF 5",
+    rank: "31/458",
   },
 ]
 
