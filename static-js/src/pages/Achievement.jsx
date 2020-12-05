@@ -160,7 +160,43 @@ const nsu_prizes = [
   }
 ]
 
-const achievements = []
+const achievements = [
+  {
+    link: "https://doi.org/10.1007/978-981-33-4370-2_7",
+    image: "",
+    date: "November 25-27, 2020",
+    name: "Improving ModSecurity WAF with Machine Learning Methods",
+    description: "The goal of this paper is to develop a WAF system based on ModSecurity with ModSecurity CRS, which focuses on reducing the false-positive rate of ModSecurity CRS based on machine learning methods.",
+  },
+  {
+    link: "https://doi.org/10.1007/978-3-030-35653-8_32",
+    image: "",
+    date: "November 27-29, 2019",
+    name: "Detect Abnormal Behaviours in Ethereum Smart Contracts Using Attack Vectors",
+    description: "In this paper, we classify attack vectors of Ethereum smart contracts, then propose some behaviour-based methods to detect them.",
+  },
+  {
+    link: "https://doi.org/10.1109/blockchain.2019.00083",
+    image: "",
+    date: "July 14-17, 2019",
+    name: "Scalable Distributed Random Number Generation Based on Homomorphic Encryption",
+    description: "We present a protocol which can be implemented on a blockchain that ensures unpredictable, tamper-resistant, scalable and publicly-verifiable outcomes.",
+  },
+  {
+    link: "https://doi.org/10.1109/edocw.2019.00028",
+    image: "",
+    date: "October 28-31, 2019",
+    name: "A System for Scalable Decentralized Random Number Generation",
+    description: "We demonstrate a system of random number generation service for generating fair, tamper-resistant, and verifiable random numbers.",
+  },
+  {
+    link: "https://doi.org/10.1007/978-3-030-35653-8_34",
+    image: "",
+    date: "November 27-29, 2019",
+    name: "Blockchain-Based Open Data: An Approach for Resolving Data Integrity and Transparency",
+    description: "In this paper, we design and implement a mechanism for secure storing and exchanging open data leveraging Hyperledger Fabric and IPFS (InterPlanetary File System).",
+  },
+]
 
 const blogs = []
 
