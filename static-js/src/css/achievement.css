@@ -124,6 +124,11 @@
     color: #0d0925;
     margin-bottom: 20px;
 }
+.achievement-slider__author {
+    color: #4e4a67;
+    margin-bottom: 30px;
+    line-height: 1.5em;
+}
 .achievement-slider__text {
     color: #4e4a67;
     margin-bottom: 30px;
