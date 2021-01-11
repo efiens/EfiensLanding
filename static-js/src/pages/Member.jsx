@@ -5,53 +5,53 @@ import "../css/member.css";
 function renderMember(member, key, type) {
   const title = member.title ? member.title : type;
   const fb = member.fb
-           ?  <a className="social" href={member.fb} target="_blank">
-                  <i className="fa fa-facebook-square"></i>
-              </a>
-           : null;
+    ? <a className="social" href={member.fb} target="_blank">
+      <i className="fa fa-facebook-square"></i>
+    </a>
+    : null;
 
   const tw = member.tw
-           ?  <a className="social" href={member.tw} target="_blank">
-                <i className="fa fa-twitter-square"></i>
-              </a>
-           : null;
+    ? <a className="social" href={member.tw} target="_blank">
+      <i className="fa fa-twitter-square"></i>
+    </a>
+    : null;
 
   const lk = member.lk
-           ?  <a className="social" href={member.lk} target="_blank">
-                <i className="fa fa-linkedin-square"></i>
-              </a>
-           : null;
+    ? <a className="social" href={member.lk} target="_blank">
+      <i className="fa fa-linkedin-square"></i>
+    </a>
+    : null;
 
   const gh = member.gh
-           ?  <a className="social" href={member.gh} target="_blank">
-                <i className="fa fa-github-square"></i>
-              </a>
-           : null;
+    ? <a className="social" href={member.gh} target="_blank">
+      <i className="fa fa-github-square"></i>
+    </a>
+    : null;
 
   const mail = member.mail
-             ?  <a className="social" href={`mailto:${member.mail}`} target="_blank">
-                  <i className="fa fa-envelope"></i>
-                </a>
-             : null;
+    ? <a className="social" href={`mailto:${member.mail}`} target="_blank">
+      <i className="fa fa-envelope"></i>
+    </a>
+    : null;
 
   return (
-    <div className="member-card" style={{"backgroundImage": `url(${member.image})`}}>
+    <div className="member-card" style={{ "backgroundImage": `url(${member.image})` }}>
       <div className="member-card__overlay"></div>
-        <div className="member-card__content">
-          <div className="member-card__header">
+      <div className="member-card__content">
+        <div className="member-card__header">
           <a href={`#${type}${key}`}>
-              <h1 className="member-card__title">{member.name}</h1>
+            <h1 className="member-card__title">{member.name}</h1>
           </a>
           <h4 className="member-card__info">{title}</h4>
-          </div>
-          <div>
-              {mail}
-              {fb}
-              {tw}
-              {lk}
-              {gh}
-          </div>
         </div>
+        <div>
+          {mail}
+          {fb}
+          {tw}
+          {lk}
+          {gh}
+        </div>
+      </div>
     </div>
   )
 }
@@ -63,7 +63,7 @@ function renderPopup(member, key, type) {
         <h2>{member.name}</h2>
         <a className="close" href="#">&times;</a>
         <div className="content">
-            {member.description}
+          {member.description}
         </div>
       </div>
     </div>
@@ -93,7 +93,7 @@ function Member() {
   return (
     <div>
       {
-        ALL_MEMBERS.map(({type, members}) => {
+        ALL_MEMBERS.map(({ type, members }) => {
           return (
             <div>
               <h3>{type}</h3>
@@ -107,7 +107,7 @@ function Member() {
         })
       }
       {
-        ALL_MEMBERS.map(({type, members}) => {
+        ALL_MEMBERS.map(({ type, members }) => {
           return members.map((member, key) => renderPopup(member, key, type))
         })
       }
