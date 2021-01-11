@@ -95,12 +95,12 @@ const nsu_prizes = [
     prizes: [
       {
         rank: "Second place (rank 4)",
-        players: "Pham Cong Bach, Phu Nghia Nguyen, Thanh Ngan Nguyen",
+        players: "Cong Bach Pham, Phu Nghia Nguyen, Thanh Ngan Nguyen",
         d: "for university students",
       },
       {
         rank: "Second place (rank 7)",
-        players: "Thanh Nguyen Van, Khoa Nguyen Anh, Dung Truong",
+        players: "Thanh Nguyen Van, Khoa Nguyen Anh, Viet Dung Truong",
         d: "for professionals",
       }
     ],
@@ -111,17 +111,17 @@ const nsu_prizes = [
     prizes: [
       {
         rank: "Second place (rank 2)",
-        players: "Ngoc Ky Nguyen, Dung Truong, Phuoc Nguyen Ho Minh",
+        players: "Ngoc Ky Nguyen, Viet Dung Truong, Phuoc Nguyen Ho Minh",
         d: "for university students",
       },
       {
         rank: "Second place (rank 3)",
-        players: "Thanh Nguyen Van, Quoc Bao Nguyen, Ngan Nguyen",
+        players: "Thanh Nguyen Van, Quoc Bao Nguyen, Thanh Ngan Nguyen",
         d: "for university students",
       },
       {
         rank: "Third place (rank 5)",
-        players: "Duc Tri Nguyen, Tuong Nguyen (and 1 other)",
+        players: "Duc Tri Nguyen, Tuong Nguyen Van (and 1 other)",
         d: "for professionals",
       },
       {
