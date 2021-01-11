@@ -114,8 +114,268 @@ const ALL_MEMBERS = [
         "lk": "",
         "gh": ""
       },
-    ]
-  }
+    ],
+  },
+  {
+    type: "Core member",
+    members: [
+      {
+        "name": "_.npn._",
+        "description": "",
+        "image": "https://blog.efiens.com/author/_.npn._/avatar_hu88c2d2838aa1227721a387fd7ff65b37_110775_270x270_fill_q75_lanczos_center.jpg",
+        "mail": "",
+        "fb": "https://www.facebook.com/phunghiaa/",
+        "tw": "",
+        "lk": "",
+        "gh": ""
+      },
+      {
+        "name": "DoubleVKay",
+        "description": "Noob ...",
+        "image": "https://blog.efiens.com/author/doublevkay/avatar_hu086d90e77a06ce125e87e48ca42743ae_64025_270x270_fill_q75_lanczos_center.jpg",
+        "mail": "doublevkay@gmail.com",
+        "fb": "",
+        "tw": "https://twitter.com/ViKhangVo",
+        "lk": "",
+        "gh": "https://github.com/vovikhangcdv"
+      },
+      {
+        "name": "ks75vl",
+        "description": "",
+        "image": "https://blog.efiens.com/author/ks75vl/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg",
+        "mail": "",
+        "fb": "",
+        "tw": "",
+        "lk": "",
+        "gh": ""
+      },
+      {
+        "name": "Midas",
+        "description": "",
+        "image": "https://blog.efiens.com/author/midas/avatar_hu86dc87257b111beec3c3771926c72116_2234_270x270_fill_lanczos_center_2.png",
+        "mail": "dang.le.hcmut@hcmut.edu.vn",
+        "fb": "",
+        "tw": "https://twitter.com/_lkmidas",
+        "lk": "",
+        "gh": "https://github.com/lkmidas"
+      },
+      {
+        "name": "MN",
+        "description": "",
+        "image": "https://blog.efiens.com/author/mn/avatar_hu250db427cd61990b9e49bd02614d4606_228188_270x270_fill_q75_lanczos_center.jpg",
+        "mail": "",
+        "fb": "https://www.facebook.com/ngoc.dang499/",
+        "tw": "",
+        "lk": "",
+        "gh": ""
+      },
+      {
+        "name": "ngoctin",
+        "description": "Tin is a security engineer, also a backend developer at Verichains. He has participated in many security contests as a member of Efiens team in HCMUT. He has strongly knowledge of securing system, pentesting web applications. He got some prizes in National Security Contests.",
+        "image": "https://blog.efiens.com/author/ngoctin/avatar_hu07eed9f46dcc83413f04ee5e33fd19b3_7515_270x270_fill_q75_lanczos_center.jpg",
+        "mail": "",
+        "fb": "https://www.facebook.com/ngoctin.tran.921/",
+        "tw": "",
+        "lk": "",
+        "gh": ""
+      },
+      {
+        "name": "PCBack",
+        "description": "",
+        "image": "https://blog.efiens.com/author/pcback/avatar_hue6101fec82e002a4cb5b1cc43d45bafe_5040_270x270_fill_q75_lanczos_center.jpg",
+        "mail": "bach.pham_bk@hcmut.edu.vn",
+        "fb": "",
+        "tw": "https://twitter.com/pcback_",
+        "lk": "",
+        "gh": "https://github.com/pcback"
+      },
+      {
+        "name": "Pickaxe",
+        "description": "",
+        "image": "https://blog.efiens.com/author/pickaxe/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg",
+        "mail": "",
+        "fb": "",
+        "tw": "",
+        "lk": "",
+        "gh": "https://github.com/minhbq-99"
+      },
+      {
+        "name": "zoli4c",
+        "description": "VQG = Vuon Quoc Gia",
+        "image": "https://blog.efiens.com/author/zoli4c/avatar_hu27f7dc34c9db8fd2b063f3fba6be9864_77347_270x270_fill_q75_lanczos_center.jpg",
+        "mail": "giangdeokinh@gmail.com",
+        "fb": "",
+        "tw": "https://twitter.com/giangvq1",
+        "lk": "",
+        "gh": "https://github.com/zoli4c"
+      },
+    ],
+  },
+  {
+    type: "Member",
+    members: [
+      {
+        "name": "Catafact",
+        "description": "",
+        "image": "https://blog.efiens.com/author/catafact/avatar_hu178ea802a6578dea74a6c0e06292144e_81762_270x270_fill_q75_lanczos_center.jpg",
+        "mail": "long.lang.bkhcm@hcmut.edu.vn",
+        "fb": "",
+        "tw": "",
+        "lk": "",
+        "gh": "https://github.com/longchampion"
+      },
+      {
+        "name": "catperson",
+        "description": "",
+        "image": "https://blog.efiens.com/author/catperson/avatar_huc50a08fc24b95c9213fdb3cf3a699209_79065_270x270_fill_q75_lanczos_center.jpg",
+        "mail": "",
+        "fb": "https://www.facebook.com/profile.php?id=100023973317344",
+        "tw": "",
+        "lk": "",
+        "gh": ""
+      },
+      {
+        "name": "Edisc",
+        "description": "Interested in Malware Analysis",
+        "image": "https://blog.efiens.com/author/edisc/avatar_hubbdbd969e9d9ff115cf25ba0387ced29_6107947_270x270_fill_q75_lanczos_center.jpg",
+        "mail": "edisc.hacker@gmail.com",
+        "fb": "",
+        "tw": "",
+        "lk": "",
+        "gh": "https://github.com/minhlongmt183"
+      },
+      {
+        "name": "Frost",
+        "description": "",
+        "image": "https://blog.efiens.com/author/frost/avatar_hu8b1eb5b18aa7a29b62bac2eff00a0362_178938_270x270_fill_lanczos_center_2.PNG",
+        "mail": "",
+        "fb": "",
+        "tw": "",
+        "lk": "",
+        "gh": ""
+      },
+      {
+        "name": "JstD",
+        "description": "",
+        "image": "https://blog.efiens.com/author/jstd/avatar_hub9791b2adff9bec70be270818a357a2a_23743_270x270_fill_q75_lanczos_center.jpg",
+        "mail": "",
+        "fb": "https://www.facebook.com/tvd2000/",
+        "tw": "",
+        "lk": "",
+        "gh": ""
+      },
+      {
+        "name": "lifebow",
+        "description": "",
+        "image": "https://blog.efiens.com/author/lifebow/avatar_hu3453e481dab6f00a3ec22ff943502b4c_63613_270x270_fill_q75_lanczos_center.jpg",
+        "mail": "lifebowisme@gmail.com",
+        "fb": "",
+        "tw": "",
+        "lk": "",
+        "gh": "https://github.com/lifebow"
+      },
+      {
+        "name": "Lunaa",
+        "description": "",
+        "image": "https://blog.efiens.com/author/lunaa/avatar_hu383f55a39b31ce65727d778fe62ec5f2_7754_270x270_fill_lanczos_center_2.PNG",
+        "mail": "",
+        "fb": "",
+        "tw": "",
+        "lk": "",
+        "gh": ""
+      },
+      {
+        "name": "redandblue",
+        "description": "Interested in Cracking technique",
+        "image": "https://blog.efiens.com/author/redandblue/avatar_hud0583024d19cd37f79b9b43dfad7e6db_124303_270x270_fill_lanczos_center_2.png",
+        "mail": "",
+        "fb": "",
+        "tw": "",
+        "lk": "",
+        "gh": "https://github.com/khoavnpsc"
+      },
+      {
+        "name": "Retis",
+        "description": "",
+        "image": "https://blog.efiens.com/author/retis/avatar_hueb09f622e03885f0846da938f715a84e_7446_270x270_fill_q75_lanczos_center.jpg",
+        "mail": "",
+        "fb": "",
+        "tw": "",
+        "lk": "",
+        "gh": ""
+      },
+    ],
+  },
+  {
+    type: "Alumni",
+    menbers: [
+      {
+        "name": "kynguyenngoc",
+        "description": "Ky is a second-year Master student in the MPRI (Master Parisien de Recherche en Informatique) program, enrolled at the Ecole Normale Supérieure (ENS) Paris. Previously, Ky entered ENS from Licence 3 to complete the Bachelor’s degree in an inter-university program with University Paris Diderot. Before ENS, he was an HCMUT alumnus at CSE faculty and joined Efiens in 2016. Despite not being in active in CTFs anymore, Ky still participates in either crypto- related discussions or chit - chats with the current members of Efiens.",
+        "image": "https://blog.efiens.com/author/kynguyenngoc/avatar_hu4d5fed3b4398281401df18c9a6e173f1_8688_270x270_fill_q75_lanczos_center.jpg",
+        "mail": "ky.nguyen@ens.psl.eu",
+        "fb": "",
+        "tw": "",
+        "lk": "",
+        "gh": ""
+      },
+      {
+        "name": "Lampard",
+        "description": "Thanh (Lampard) joined Efiens in 2017 and currently is a PhD student at Ho Chi Minh city University of Technology and also working as an Applied Cryptography Researcher at Incognito Chain. His main foci include Blockchain protocols, Blockchain-based applications' security, Zero-knowledge proofs, Decentralized random number generation. Before his PhD, he had achieved many international and nation prizes in cryptography and mathematics - 1st prize at the National Olympics in Algebra(2018), 2nd prize at the International Olympiad in Cryptograpy(2019) to name a few.",
+        "image": "https://blog.efiens.com/author/lampard/avatar_hu2e5c62dd53fbb3f45e947042f4403a0f_8829_270x270_fill_q75_lanczos_center.jpg",
+        "mail": "nvthanh.sdh19@hcmut.edu.vn",
+        "fb": "",
+        "tw": "",
+        "lk": "",
+        "gh": "https://github.com/LampardNguyen234"
+      },
+    ],
+  },
+  {
+    type: "Fresher",
+    menbers: [
+      {
+        "name": "AloneFancy",
+        "description": "Am I Don Quixote?",
+        "image": "https://blog.efiens.com/author/alonefancy/avatar_hu2c86b36c7ea43cfcd8b8ee199e64e763_7191_270x270_fill_q75_lanczos_center.jpg",
+        "mail": "",
+        "fb": "",
+        "tw": "",
+        "lk": "",
+        "gh": ""
+      },
+      {
+        "name": "bmkiet",
+        "description": "",
+        "image": "https://blog.efiens.com/author/bmkiet/avatar_huc25c320bf5fc199c87c978e758560579_116263_270x270_fill_lanczos_center_2.png",
+        "mail": "kiet.buibui@hcmut.edu.vn",
+        "fb": "",
+        "tw": "",
+        "lk": "",
+        "gh": "https://github.com/mkbui"
+      },
+      {
+        "name": "Nguyenngungok",
+        "description": "A noob CTF player ... and love cat ? Interested in Web security and Cracking technique",
+        "image": "https://blog.efiens.com/author/nguyenngungok/avatar_hu2e9c83bfe55a82599e8546335079cad7_220685_270x270_fill_q75_lanczos_center.jpg",
+        "mail": "",
+        "fb": "",
+        "tw": "",
+        "lk": "",
+        "gh": ""
+      },
+      {
+        "name": "SeaDawn",
+        "description": "",
+        "image": "https://blog.efiens.com/author/seadawn/avatar_hubf19224fd6f869d275ac0c4f2eede4ce_5983_270x270_fill_q75_lanczos_center.jpg",
+        "mail": "",
+        "fb": "",
+        "tw": "",
+        "lk": "",
+        "gh": "https://github.com/longnguyenhuynh"
+      },
+    ],
+  },
 ]
 
 function Member() {
