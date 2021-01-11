@@ -83,8 +83,37 @@ const ALL_MEMBERS = [
         "tw": "https://twitter.com/c0th4n",
         "lk": "",
         "gh": "https://github.com/cothan"
-
-      }
+      },
+      {
+        "name": "B40",
+        "description": "Bao (B40) is a security researcher at VNG Corp. With 3+ years diving in Blockchain field, he took part in developing several blockchain- applied projects and had a blockchain - security - related talk at Hack In The Box conference. As a passionate member of Efiens team, he also enjoys bug finding and conducts solutions for binary obfuscation at compiler and source code level.",
+        "image": "https://blog.efiens.com/author/b40/avatar_hu614d2057fa5ab10893163c29677ee02d_70760_270x270_fill_q75_lanczos_center.jpg",
+        "mail": "quocbao300@gmail.com",
+        "fb": "",
+        "tw": "",
+        "lk": "",
+        "gh": ""
+      },
+      {
+        "name": "Luibo",
+        "description": "Khoa (Luibo) is a security researcher originated from the Efiens security club. He attended many security contests and now working as a research student at CYLABK. He is experienced in reversing malware and developing Windows kernel driver. He is currently looking for research opportunity in fields of binary analysis, formal methods and compiler design and security. Before that, he received B.Eng. Degree in Computer Science, University of Technology, VNU-HCM.",
+        "image": "https://blog.efiens.com/author/luibo/avatar_huae376cfaded76f219a19d043c2b15c4d_60290_270x270_fill_q75_lanczos_center.jpg",
+        "mail": "ctf.luibo@gmail.com",
+        "fb": "",
+        "tw": "https://twitter.com/luibo_efiens",
+        "lk": "",
+        "gh": "https://github.com/nganhkhoa"
+      },
+      {
+        "name": "Nguyễn An Khương",
+        "description": "Dr. Nguyen An Khuong is a lecturer and researcher at the Faculty of Computer Science and Engineering, Ho Chi Minh City University of Technology (HCMUT). He receives his PhD in Mathematics from the University of Groningen, The Netherlands in 2008. Among of his current interests are applied cryptography, blockchain technology, and applied machine learning. In terms of services, he is a member of the editorial board of the Bulletin of Vietnamese Mathematical Society (2012-2018), and contributed to the Vietnamese editions of “Modern Industrial Statistics: with applications in R, MINITAB and JMP” by R. Kenett, S. Zacks and “Elements” by Euclid of Alexandria as a co-translator. He is also a mentor and supervisor for the Efiens team. His research profile is available at https://www.researchgate.net/profile/Khuong_Nguyen-An",
+        "image": "https://blog.efiens.com/author/nguyen-an-khuong/avatar_huf7147026341f8ad4aa1f2f845b95b8df_38998_270x270_fill_q75_lanczos_center.jpg",
+        "mail": "nakhuong@hcmut.edu.vn",
+        "fb": "",
+        "tw": "",
+        "lk": "",
+        "gh": ""
+      },
     ]
   }
 ]
