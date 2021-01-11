@@ -204,3 +204,7 @@ h3 {
 .social:hover {
     text-decoration: none;
 }
+
+.social {
+    padding-right: 10px;
+}
