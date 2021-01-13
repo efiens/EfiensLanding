@@ -5,37 +5,37 @@ import "../css/member.css";
 function renderMember(member, key, type) {
   const title = member.title ? member.title : type;
   const fb = member.fb
-    ? <a className="social" href={member.fb} target="_blank">
+    ? <a className="social" href={member.fb} target="_blank" rel="noreferrer">
       <i className="fa fa-facebook-square"></i>
     </a>
     : null;
 
   const tw = member.tw
-    ? <a className="social" href={member.tw} target="_blank">
+    ? <a className="social" href={member.tw} target="_blank" rel="noreferrer">
       <i className="fa fa-twitter-square"></i>
     </a>
     : null;
 
   const lk = member.lk
-    ? <a className="social" href={member.lk} target="_blank">
+    ? <a className="social" href={member.lk} target="_blank" rel="noreferrer">
       <i className="fa fa-linkedin-square"></i>
     </a>
     : null;
 
   const gh = member.gh
-    ? <a className="social" href={member.gh} target="_blank">
+    ? <a className="social" href={member.gh} target="_blank" rel="noreferrer">
       <i className="fa fa-github-square"></i>
     </a>
     : null;
 
   const mail = member.mail
-    ? <a className="social" href={`mailto:${member.mail}`} target="_blank">
+    ? <a className="social" href={`mailto:${member.mail}`} target="_blank" rel="noreferrer">
       <i className="fa fa-envelope"></i>
     </a>
     : null;
 
   return (
-    <div className="member-card" style={{ "backgroundImage": `url(${member.image})` }}>
+    <div key={`card${type}${key}`} id={`card${type}${key}`} className="member-card" style={{ "backgroundImage": `url(${member.image})` }}>
       <div className="member-card__overlay"></div>
       <div className="member-card__content">
         <div className="member-card__header">
@@ -58,10 +58,10 @@ function renderMember(member, key, type) {
 
 function renderPopup(member, key, type) {
   return (
-    <div id={`${type}${key}`} className="overlay">
+    <div key={`popup${type}${key}`} id={`${type}${key}`} className="overlay">
       <div className="popup">
         <h2>{member.name}</h2>
-        <a className="close" href="#">&times;</a>
+        <a className="close" href={`#card${type}${key}`}>&times;</a>
         <div className="content">
           {member.description}
         </div>
@@ -74,6 +74,16 @@ const ALL_MEMBERS = [
   {
     type: "Advisors",
     members: [
+      {
+        "name": "Nguyễn An Khương",
+        "description": "Dr. Nguyen An Khuong is a lecturer and researcher at the Faculty of Computer Science and Engineering, Ho Chi Minh City University of Technology (HCMUT). He receives his PhD in Mathematics from the University of Groningen, The Netherlands in 2008. Among of his current interests are applied cryptography, blockchain technology, and applied machine learning. In terms of services, he is a member of the editorial board of the Bulletin of Vietnamese Mathematical Society (2012-2018), and contributed to the Vietnamese editions of “Modern Industrial Statistics: with applications in R, MINITAB and JMP” by R. Kenett, S. Zacks and “Elements” by Euclid of Alexandria as a co-translator. He is also a mentor and supervisor for the Efiens team. His research profile is available at https://www.researchgate.net/profile/Khuong_Nguyen-An",
+        "image": "https://blog.efiens.com/author/nguyen-an-khuong/avatar_huf7147026341f8ad4aa1f2f845b95b8df_38998_270x270_fill_q75_lanczos_center.jpg",
+        "mail": "nakhuong@hcmut.edu.vn",
+        "fb": "",
+        "tw": "",
+        "lk": "",
+        "gh": ""
+      },
       {
         "name": "Cothan",
         "description": "Duc (Cothan) Nguyen is a graduate research assistant in hardware implementation of Post-Quantum Cryptography in FPGA. His research interest includes designing Post-Quantum Cryptography hardware architecture, applying deep learning to binary analysis, and NEON implementation of multiple PQC candidates. Before his Ph.D., he participated in many CTF competitions and won several national and international prizes, his tasks were to implement relevant cryptographic attack papers during competitions. Also, he is the founder of Efiens CTF team, Efiens has become top student CTF team in Vietnam.",
@@ -103,16 +113,6 @@ const ALL_MEMBERS = [
         "tw": "https://twitter.com/luibo_efiens",
         "lk": "",
         "gh": "https://github.com/nganhkhoa"
-      },
-      {
-        "name": "Nguyễn An Khương",
-        "description": "Dr. Nguyen An Khuong is a lecturer and researcher at the Faculty of Computer Science and Engineering, Ho Chi Minh City University of Technology (HCMUT). He receives his PhD in Mathematics from the University of Groningen, The Netherlands in 2008. Among of his current interests are applied cryptography, blockchain technology, and applied machine learning. In terms of services, he is a member of the editorial board of the Bulletin of Vietnamese Mathematical Society (2012-2018), and contributed to the Vietnamese editions of “Modern Industrial Statistics: with applications in R, MINITAB and JMP” by R. Kenett, S. Zacks and “Elements” by Euclid of Alexandria as a co-translator. He is also a mentor and supervisor for the Efiens team. His research profile is available at https://www.researchgate.net/profile/Khuong_Nguyen-An",
-        "image": "https://blog.efiens.com/author/nguyen-an-khuong/avatar_huf7147026341f8ad4aa1f2f845b95b8df_38998_270x270_fill_q75_lanczos_center.jpg",
-        "mail": "nakhuong@hcmut.edu.vn",
-        "fb": "",
-        "tw": "",
-        "lk": "",
-        "gh": ""
       },
     ],
   },
@@ -308,7 +308,7 @@ const ALL_MEMBERS = [
   },
   {
     type: "Alumni",
-    menbers: [
+    members: [
       {
         "name": "kynguyenngoc",
         "description": "Ky is a second-year Master student in the MPRI (Master Parisien de Recherche en Informatique) program, enrolled at the Ecole Normale Supérieure (ENS) Paris. Previously, Ky entered ENS from Licence 3 to complete the Bachelor’s degree in an inter-university program with University Paris Diderot. Before ENS, he was an HCMUT alumnus at CSE faculty and joined Efiens in 2016. Despite not being in active in CTFs anymore, Ky still participates in either crypto- related discussions or chit - chats with the current members of Efiens.",
@@ -333,7 +333,7 @@ const ALL_MEMBERS = [
   },
   {
     type: "Fresher",
-    menbers: [
+    members: [
       {
         "name": "AloneFancy",
         "description": "Am I Don Quixote?",
@@ -384,7 +384,7 @@ function Member() {
       {
         ALL_MEMBERS.map(({ type, members }) => {
           return (
-            <div>
+            <div key={`type${type}`}>
               <h3>{type}</h3>
               <div className="member">
                 {
@@ -405,4 +405,3 @@ function Member() {
 }
 
 export default Member;
-
