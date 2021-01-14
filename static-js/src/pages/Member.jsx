@@ -355,7 +355,7 @@ const ALL_MEMBERS = [
         "gh": "https://github.com/mkbui"
       },
       {
-        "name": "Nguyenngungok",
+        "name": "meterglost",
         "description": "A noob CTF player ... and love cat ? Interested in Web security and Cracking technique",
         "image": "https://blog.efiens.com/author/nguyenngungok/avatar_hu2e9c83bfe55a82599e8546335079cad7_220685_270x270_fill_q75_lanczos_center.jpg",
         "mail": "",
